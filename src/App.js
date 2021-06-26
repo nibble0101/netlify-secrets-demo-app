@@ -19,7 +19,7 @@ function App() {
         setTodo(todo.title);
       } catch (err) {
         console.log(err);
-      }finally{
+      } finally {
         setLoading(false);
       }
     }
